@@ -1,0 +1,24 @@
+.section {
+  background: #f7c481;
+  position: relative; }
+  .section .phone {
+    width: 80px;
+    margin: auto;
+    display: inherit;
+    padding-top: 10%; }
+  .section p {
+    margin: auto;
+    padding-top: 52px;
+    text-align: center;
+    font-size: 28px; }
+  .section .section {
+    margin-bottom: 50px; }
+  .section a {
+    text-decoration: none;
+    color: black; }
+  .section h4 {
+    text-align: center;
+    font-size: 36px;
+    color: white; }
+
+/*# sourceMappingURL=footer.css.map */
