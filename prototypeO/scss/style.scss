@@ -1,7 +1,9 @@
-//settings
+@import 'settings/mixin';
 @import 'settings/variables';
-
-@import 'settings/general';
-//partials
+@import 'settings/global';
+@import 'partials/menu';
 @import 'partials/header';
+@import 'partials/content';
+@import 'partials/bottom';
 @import 'partials/footer';
+
