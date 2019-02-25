@@ -13,20 +13,6 @@ body {
   width: 100%;
   clear: both; }
 
-button, input[type="submit"] {
-  outline: none; }
-
-.logo {
-  position: fixed;
-  width: 1.5%;
-  z-index: 10;
-  top: -1%;
-  left: 23%;
-  padding: 28px;
-  background: #fff;
-  border-radius: 2px;
-  display: none; }
-
 #menu {
   position: sticky;
   top: 0;
@@ -131,7 +117,7 @@ strong {
 .skills__description-item {
   flex: 1 auto;
   text-align: center;
-  padding: 4rem;
+  padding: 5rem;
   width: 30%;
   margin-left: -24%; }
 
@@ -140,19 +126,24 @@ strong {
   margin: 0 0 3rem; }
 
 .skills__description {
-  padding: 2rem 4rem;
-  margin: 9 auto;
-  max-width: 1400px;
-  display: flex;
-  padding: 2.5rem 2.25rem; }
+  display: flex; }
 
 .text_skills {
-  color: white; }
+  color: #fff; }
 
 h4 {
-  color: white; }
+  color: #fff; }
 
 .p_about {
   margin-left: 49px; }
+
+.img_projects {
+  width: 26%; }
+
+.projects_content1, .projects_content2 {
+  text-align: center; }
+
+.projects_content2 {
+  padding-top: 6%; }
 
 /*# sourceMappingURL=style.css.map */

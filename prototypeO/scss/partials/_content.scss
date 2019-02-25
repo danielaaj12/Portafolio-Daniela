@@ -54,7 +54,7 @@
   position: relative;
 }
 .projects_content{
-  background-color: #F3C12E;
+  background-color: $yellow;
   padding: 140px 0 200px;
   position: relative;
 }
@@ -84,7 +84,7 @@ strong{
 .skills__description-item{
   flex: 1 auto;
   text-align: center;
-  padding: 4rem;
+  padding: 5rem;
   width: 30%;
   margin-left: -24%;
 
@@ -96,25 +96,40 @@ strong{
 }
 
 .skills__description{
-  padding: 2rem 4rem;
-	margin: 9 auto;
-	max-width: 1400px;
 	display: flex;
-  padding: 2.5rem 2.25rem;
-
 }
 
 .text_skills{
-  color: white;
+  color: $white;
 }
 
 h4{
-  color: white;
+  color: $white;
 }
 
 .p_about{
   margin-left: 49px;
 }
+
+.img_projects{
+  width: 26%;  
+}
+
+.projects_content1, .projects_content2{
+  text-align: center;
+}
+
+.projects_content2{
+  padding-top: 6%;
+}
+
+
+
+
+
+
+
+
 
 
 
