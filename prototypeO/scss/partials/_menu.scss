@@ -7,18 +7,13 @@
   
   .options {
       position: relative;
-      top: -30px;
+      top: -41px;
       list-style: none;
-      float: right;
-      min-width: 50%;
+      margin-left: 4%;
       li {
           float: left;
-          
-          padding: 0px 46px;
-        
-          
           transition: 0.25s;
-          margin: 10px;
+          margin: 20px;
           
       }
       a {
