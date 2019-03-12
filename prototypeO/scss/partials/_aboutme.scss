@@ -1,0 +1,49 @@
+.about_title, .about_title2{
+  font-family: 'Lalezar', cursive;
+  font-size: 5.3rem;
+  float: left;
+  padding: 25px;
+  letter-spacing: 5px;
+  line-height: 72%;
+  text-transform: uppercase;
+  padding: 6%;
+  padding-top: 24px;
+}
+
+.aboutme_section_title{
+  background-image: url(../img/texture1.png);
+  background-color: $white;
+  padding: 140px 0 200px;
+  position: relative;
+}
+.about_title2{
+  margin-left: -26.6%;
+  padding-top: 6%;
+}
+
+.aboutme_content{
+  padding: 50px 0 80px;
+  position: relative;
+}
+
+.aboutme_text_section{
+  color: $white;
+  padding: 3%;
+  font-family: 'Montserrat', sans-serif;
+  padding: -1 0 30px 0;
+}
+
+.about_text_title{
+  font-family: "Muli", sans-serif;
+  margin: 3rem;
+  font-size: 1.6rem;
+  padding: -1 0 30px 0;
+}
+
+strong{
+  color: black;
+}
+
+.p_about{
+  margin-left: 49px;
+}

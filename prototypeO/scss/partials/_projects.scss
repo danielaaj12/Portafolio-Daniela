@@ -1,0 +1,40 @@
+.projects_content1, .projects_content2{
+  text-align: center;
+}
+
+.projects_content2{
+  padding-top: 6%;
+}
+
+.projects_title, .projects_title2{
+  font-family: 'Lalezar', cursive;
+  font-size: 5.3rem;
+  float: left;
+  padding: 25px;
+  letter-spacing: 5px;
+  line-height: 72%;
+  text-transform: uppercase;
+  padding: 6%;
+  padding-top: 24px;
+}
+
+.projects_section_title{
+  background-image: url(../img/texture1.png);
+  background-color: $white;
+  padding: 140px 0 200px;
+  position: relative;
+}
+
+.projects_title2{
+  padding-top: 6%;
+}
+
+.projects_content{
+  background-color: $yellow;
+  padding: 140px 0 200px;
+  position: relative;
+}
+
+.img_projects{
+  width: 26%;  
+}

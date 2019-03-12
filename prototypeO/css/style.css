@@ -1,17 +1,12 @@
 * {
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
 
 body {
   font-weight: 200;
   letter-spacing: 1px;
   background: #F3C12E;
   font-family: 'Montserrat', sans-serif; }
-
-.clearfix:after {
-  content: '';
-  display: block;
-  width: 100%;
-  clear: both; }
 
 #menu {
   position: sticky;
@@ -26,7 +21,6 @@ body {
     margin-left: 4%; }
     #menu .options li {
       float: left;
-      transition: 0.25s;
       margin: 20px; }
     #menu .options a {
       color: black;
@@ -35,6 +29,20 @@ body {
       text-transform: uppercase;
       letter-spacing: 2ch;
       font-size: 15px; }
+
+#content {
+  text-align: center; }
+  #content p {
+    padding: 10%; }
+
+.skills_title2 {
+  margin-left: -19%; }
+
+.projects_title2 {
+  margin-left: -21%; }
+
+.contact_title2 {
+  margin-left: -21%; }
 
 #header {
   background: black;
@@ -45,18 +53,7 @@ body {
   #header .header_images {
     margin-top: 6%; }
 
-#content {
-  text-align: center; }
-  #content p {
-    padding: 10%; }
-
-.aboutme_section_title, .skills_section_title, .projects_section_title, .contact_section_title {
-  background-image: url(../img/texture1.png);
-  background-color: #fff;
-  padding: 140px 0 200px;
-  position: relative; }
-
-.about_title, .about_title2, .skills_title, .skills_title2, .projects_title, .projects_title2, .contact_title, .contact_title2 {
+.about_title, .about_title2 {
   font-family: 'Lalezar', cursive;
   font-size: 5.3rem;
   float: left;
@@ -67,36 +64,18 @@ body {
   padding: 6%;
   padding-top: 24px; }
 
-.about_title2, .skills_title2, .projects_title2, .contact_title2 {
+.aboutme_section_title {
+  background-image: url(../img/texture1.png);
+  background-color: #fff;
+  padding: 140px 0 200px;
+  position: relative; }
+
+.about_title2 {
   margin-left: -26.6%;
   padding-top: 6%; }
 
-.skills_title2 {
-  margin-left: -19%; }
-
-.projects_title2 {
-  margin-left: -21%; }
-
-.contact_title2 {
-  margin-left: -23%; }
-
 .aboutme_content {
   padding: 50px 0 80px;
-  position: relative; }
-
-.skills_content {
-  background-color: #d75964ff;
-  padding: 0px 0 0px;
-  position: relative; }
-
-.projects_content {
-  background-color: #F3C12E;
-  padding: 140px 0 200px;
-  position: relative; }
-
-.contact_content {
-  background-color: black;
-  padding: 140px 0 200px;
   position: relative; }
 
 .aboutme_text_section {
@@ -113,6 +92,96 @@ body {
 
 strong {
   color: black; }
+
+.p_about {
+  margin-left: 49px; }
+
+.contact_title, .contact_title2 {
+  font-family: 'Lalezar', cursive;
+  font-size: 5.3rem;
+  float: left;
+  padding: 25px;
+  letter-spacing: 5px;
+  line-height: 72%;
+  text-transform: uppercase;
+  padding: 6%;
+  padding-top: 24px; }
+
+.contact_section_title {
+  background-image: url(../img/texture1.png);
+  background-color: #fff;
+  padding: 140px 0 200px;
+  position: relative; }
+
+.contact_title2 {
+  padding-top: 6%; }
+
+.contact_content {
+  background-color: black;
+  padding: 140px 0 200px;
+  position: relative; }
+
+.email_image {
+  margin-left: 46%; }
+
+.projects_content1, .projects_content2 {
+  text-align: center; }
+
+.projects_content2 {
+  padding-top: 6%; }
+
+.projects_title, .projects_title2 {
+  font-family: 'Lalezar', cursive;
+  font-size: 5.3rem;
+  float: left;
+  padding: 25px;
+  letter-spacing: 5px;
+  line-height: 72%;
+  text-transform: uppercase;
+  padding: 6%;
+  padding-top: 24px; }
+
+.projects_section_title {
+  background-image: url(../img/texture1.png);
+  background-color: #fff;
+  padding: 140px 0 200px;
+  position: relative; }
+
+.projects_title2 {
+  padding-top: 6%; }
+
+.projects_content {
+  background-color: #F3C12E;
+  padding: 140px 0 200px;
+  position: relative; }
+
+.img_projects {
+  width: 26%; }
+
+.skills_title, .skills_title2 {
+  font-family: 'Lalezar', cursive;
+  font-size: 5.3rem;
+  float: left;
+  padding: 25px;
+  letter-spacing: 5px;
+  line-height: 72%;
+  text-transform: uppercase;
+  padding: 6%;
+  padding-top: 24px; }
+
+.skills_section_title {
+  background-image: url(../img/texture1.png);
+  background-color: #fff;
+  padding: 140px 0 200px;
+  position: relative; }
+
+.skills_title2 {
+  padding-top: 6%; }
+
+.skills_content {
+  background-color: #d75964ff;
+  padding: 0px 0 0px;
+  position: relative; }
 
 .skills__description-item {
   flex: 1 auto;
@@ -133,20 +202,5 @@ strong {
 
 h4 {
   color: #fff; }
-
-.p_about {
-  margin-left: 49px; }
-
-.img_projects {
-  width: 26%; }
-
-.projects_content1, .projects_content2 {
-  text-align: center; }
-
-.projects_content2 {
-  padding-top: 6%; }
-
-.email_image {
-  margin-left: 46%; }
 
 /*# sourceMappingURL=style.css.map */
