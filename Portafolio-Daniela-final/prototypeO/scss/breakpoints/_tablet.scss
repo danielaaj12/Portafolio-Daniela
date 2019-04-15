@@ -1,0 +1,90 @@
+@media (max-width: $breakpoint-md){
+
+  .animation{
+    width: 104%;
+    margin-top: -6%;
+  }
+
+  .options{
+    display: none;
+  }
+
+  .about_title2{
+    margin-left: -84.6%;
+    padding-top: 22%;
+  }
+
+  .aboutme_text_section{
+    padding: 0%;
+  }
+
+  .aboutme_content{
+    background-color: $red;
+  }
+
+  .skills_title2{
+    margin-left: -46%;
+    margin-top: 18%;
+  }
+
+  .skills_content{
+    background-color: $blue;
+  }
+
+  .projects_title2{
+    margin-left: -2%;
+    margin-top: -11%;
+
+  }
+
+  .skills_description{
+
+    margin-left: 39%;
+  }
+
+  .contact_title2{
+    margin-top: -10%;
+    margin-left: 2%;
+  }
+
+  .design_info_img, .soft_info_img, .web_info_img{
+    width: 104%;
+  }
+
+  .design_info_img, .web_info_img, .soft_info_img{
+    width: 69%;
+    margin-left: 15%;
+    margin-top: 15%;
+  }
+
+  .projects_content{
+    background-color: #0D1321;
+    background-image: url(../img/texture1.png);
+  }
+  
+  .email_text{
+    margin-left: 13%;
+    font-size: 23px;
+    margin-top: -18%;
+  }
+  
+  .github_contact, .linkedin_contact{
+    width: 13%;
+    margin-top: 11%;
+    cursor: pointer;
+  }
+  
+  .github_contact{
+    margin-left: 2%;
+  }
+  
+  .linkedin_contact{
+    margin-left: 28%;
+  }
+  
+  .contact_info{
+    padding: 0%;
+    margin: -36px;
+    margin-top: 37%;
+  }
+}    
